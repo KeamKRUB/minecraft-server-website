@@ -1,0 +1,23 @@
+
+.btn.btn-expand::before {
+  background: #111;
+  border-radius: 0.5rem;
+  content: "";
+  display: inline-block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.4s;
+  width: 100%;
+  z-index: -1;
+}
+.btn.btn-expand:hover::before {
+  opacity: 0;
+  transform: scaleX(1.2) scaleY(1.4);
+  z-index: 1;
+}
+.btn.btn-levitate:hover {
+  box-shadow: 0 1rem 2rem rgba(80, 80, 80, 0.4);
+  transform: translateY(-0.3rem);
+}
