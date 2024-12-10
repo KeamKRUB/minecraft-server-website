@@ -17,7 +17,7 @@
 
 เข้าไปที่ path install(install/install.php) และทำตามขั้นต่อต่อไปนี้
 1. System Chekc (ตรวจสอบระบบ) - เช็ค Operation System & PHP Version
-2. MySQL Database - ตั้งค่า Database ให้เรียบร้อย
+2. MySQL Database - ตั้งค่า Database ให้เรียบร้อย (ตรวจสอบให้แน่ใจว่าได้สร้าง Table ใน Database เตรียมไว้แล้ว)
 3. Configuration - กำหนดค่าพื้นฐานของเว็บไซต์
 4. เสร็จสิ้นการติดตั้ง - หลังจากดำเนินการครบถ้วนให้ลบ file license.key ใน page/_system
 
