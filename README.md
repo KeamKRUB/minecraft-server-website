@@ -15,11 +15,13 @@
 
 > วิธีการติดตั้งเว็บไซต์
 
-เข้าไปที่ path install และทำตามขั้นต่อต่อไปนี้
+เข้าไปที่ path install(install/install.php) และทำตามขั้นต่อต่อไปนี้
 1. System Chekc (ตรวจสอบระบบ) - เช็ค Operation System & PHP Version
 2. MySQL Database - ตั้งค่า Database ให้เรียบร้อย
 3. Configuration - กำหนดค่าพื้นฐานของเว็บไซต์
 4. เสร็จสิ้นการติดตั้ง - หลังจากดำเนินการครบถ้วนให้ลบ file license.key ใน page/_system
+
+ถ้าหน้า Install เกิด error ให้ตรวจสอบเวอร์ชัน php และแก้ไขในไฟล์ install/install.php
 
 > วิธีการเข้าถึง Backend
 1. กำหนดสถานะให้ตัวเองเป็น Admin
